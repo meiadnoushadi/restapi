@@ -1,0 +1,7 @@
+openstack   <== api ==> django  <== api ==> HTML/CSS/JS
+---------               ------              -----------
+serverCloud          backendwebsite       Frontendwebsite
+
+1-api(openstack)[json]>>application(django)[rest_faramework]>>frontend(html/css/js)
+
+2-api(openstack) >> requests >> 
